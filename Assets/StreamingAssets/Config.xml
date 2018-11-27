@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<configInfo>
+		<!--配置文件说明：针对Unity+KDVR平台的xxxx模块参数设置，包括：-，-，-等信息；-->
+	</configInfo>
+	<servers>       <!--模块服务端参数配置-->
+		<rsserver>  <!--资源服务器参数配置-->
+			<!--EnableRS></EnableRS-->
+			<!--ResourceUrl>192.168.1.135:7888/</ResourceUrl-->
+		</rsserver>
+		<dbserver>  <!--数据服务器参数配置-->
+			<!--EnableDB>1</EnableDB-->
+			<!--DBServerUrl>127.0.0.1</DBServerUrl-->
+			<!--DBPort>3306</DBPort-->
+			<!--DBName>welding</DBName-->
+			<!--DBID>root</DBID-->
+			<!--DBPWD>root</DBPWD-->
+			<!--DBTimeOut>1</DBTimeOut-->
+		</dbserver>
+	</servers>
+	
+	<videoplayer>     <!--模块参数配置根节点-->
+		<resources> <!--静态资源加载配置-->
+			
+		</resources>
+		<parameters>
+      <!--动态参数配置根节点-->
+			<VideoNames>
+				<Element>AlphaLeftRight.mp4</Element>
+				<Element>AlphaTopBottom.mp4</Element>
+				<Element>BigBuckBunny_720p30.mp4</Element>
+				<Element>Sample180.mp4</Element>
+				<Element>SampleCube.mp4</Element>
+				<Element>SampleSphere.mp4</Element>
+			</VideoNames>
+		</parameters>
+	</videoplayer>
+</configuration>
